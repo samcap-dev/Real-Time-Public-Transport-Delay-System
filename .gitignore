@@ -1,2 +1,8 @@
 .env
 /venv
+# Ignore raw GTFS data
+data/MBTA_GTFS/*
+# Ignore cleaned files
+data/cleaned/*
+# Keep placeholder file if needed
+!.gitkeep
